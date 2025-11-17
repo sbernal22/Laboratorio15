@@ -1,5 +1,3 @@
-const elemLi= document.getElementsByTagName("li");
-for(const elemento of elemLi){
-    elemento.classList.add("resaltado");
-    elemento.classList.remove("oculto");
-}
+const primeraImagen = document.getElementsByTagName("img")[0];
+primeraImagen.setAttribute("src", "imagen.jpg");
+primeraImagen.setAttribute("alt", "Imagen cambiada");
